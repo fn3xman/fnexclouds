@@ -24,9 +24,9 @@ let questions = [
     {
         numb: 3,
         question: "What does PHP stand for?",
-        answer: "A. Hypertext hej",
+        answer: "A. Hypertext Preproccessor",
         options: [
-            "A. Hypertext hej",
+            "A. Hypertext Preproccessor",
             "B. Hometext Programming",
             "C. Hypertext Preprogramming",
             "D. Programming Hypertext Preprocessor"
