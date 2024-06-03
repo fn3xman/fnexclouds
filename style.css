@@ -105,8 +105,9 @@ body{
     margin-top: 20px;
 }
 .start-btn{
-    width: 190px;
-    height: 55px;
+    width: 250px;
+    height: 65px;
+    text-decoration: none;
     background: #c40094;
     border: 2px solid #fff;
     outline: none;
@@ -116,6 +117,7 @@ body{
     color: #fff;
     letter-spacing: 1px;
     font-weight: 600;
+    font-size: 50px;
     cursor: pointer;
     transition: .3s;
 }
