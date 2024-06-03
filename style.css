@@ -105,6 +105,22 @@ body{
     margin-top: 20px;
 }
 .start-btn{
+    width: 190px;
+    height: 55px;
+    text-decoration: none;
+    background: #c40094;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #c40094;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+.download-btn{
     width: 250px;
     height: 65px;
     text-decoration: none;
