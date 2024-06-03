@@ -120,7 +120,7 @@ body{
     cursor: pointer;
     transition: .3s;
 }
-.download-btn{
+.home-content .download-btn{
     width: 250px;
     height: 65px;
     text-decoration: none;
@@ -136,6 +136,10 @@ body{
     font-size: 50px;
     cursor: pointer;
     transition: .3s;
+}
+.download-btn{
+    background: #5a0244;
+    box-shadow: none;
 }
 .start-btn:hover{
     background: #5a0244;
