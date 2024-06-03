@@ -137,7 +137,7 @@ body{
     cursor: pointer;
     transition: .3s;
 }
-.download-btn:hover{
+.home-content .download-btn:hover{
     background: #5a0244;
     box-shadow: none;
 }
