@@ -1,128 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="Keywords" content="">
-    <title>404 Page</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FnexCloud | 404</title>
+    <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-
-
-    <style>
-        body {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-        
-        #notfound {
-            position: relative;
-            height: 100vh;
-            background-color: #222;
-        }
-        
-        #notfound .notfound {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-        }
-        
-        .notfound {
-            max-width: 460px;
-            width: 100%;
-            text-align: center;
-            line-height: 1.4;
-        }
-        
-        .notfound .notfound-404 {
-            height: 158px;
-            line-height: 153px;
-        }
-        
-        .notfound .notfound-404 h1 {
-            font-family: 'Josefin Sans', sans-serif;
-            color: #222;
-            font-size: 220px;
-            letter-spacing: 10px;
-            margin: 0px;
-            font-weight: 700;
-            text-shadow: 2px 2px 0px #c9c9c9, -2px -2px 0px #c9c9c9;
-        }
-        
-        .notfound .notfound-404 h1>span {
-            text-shadow: 2px 2px 0px #ffab00, -2px -2px 0px #ffab00, 0px 0px 8px #ff8700;
-        }
-        
-        .notfound p {
-            font-family: 'Josefin Sans', sans-serif;
-            color: #c9c9c9;
-            font-size: 16px;
-            font-weight: 400;
-            margin-top: 0px;
-            margin-bottom: 15px;
-        }
-        
-        .notfound a {
-            font-family: 'Josefin Sans', sans-serif;
-            font-size: 14px;
-            text-decoration: none;
-            text-transform: uppercase;
-            background: transparent;
-            color: #c9c9c9;
-            border: 2px solid #c9c9c9;
-            display: inline-block;
-            padding: 10px 25px;
-            font-weight: 700;
-            -webkit-transition: 0.2s all;
-            transition: 0.2s all;
-        }
-        
-        .notfound a:hover {
-            color: #ffab00;
-            border-color: #ffab00;
-        }
-        
-        @media only screen and (max-width: 480px) {
-            .notfound .notfound-404 {
-                height: 122px;
-                line-height: 122px;
-            }
-            .notfound .notfound-404 h1 {
-                font-size: 122px;
-            }
-        }
-    </style>
-
-
 </head>
-
 <body>
 
     <main class="main">
         <header class="header">
             <img src="Images/logo.png" class="logo">
+
+            <nav class="navbar">
+                <a href="index" class="active">Home</a>
+                <a href="#" class="quiz">Quiz</a>
+                <a href="about">About</a>
+                <a href="contact">Contact</a>
+                <a href="dragons">Dragons</a>
+                <a href="download">Calculator App</a>
+                <a href="chat">Chat</a>
+            </nav>
         </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Quiz</h1>
+                    <div class="quiz-header">
+                        <span>FnexCloud Quiz</span>
+                        <span class="header-score">Score: 0 / 5</span>
+                    </div>
+                    <h2 class="question-text">What does HTML stand for?</h2>
+
+                <div class="option-list">
+                    <!-- <div class="option">
+                        <span>A. Hyper Type Multi Language</span>
+                    </div>
+                    <div class="option">
+                        <span>B. Hyper Text Multiple Language</span>
+                    </div>
+                    <div class="option">
+                        <span>C Hyper Text Markup Language</span>
+                    </div>
+                    <div class="option">
+                        <span>D. Home Text Multi Language</span>
+                    </div> -->
+                </div>
+
+                <div class="quiz-footer">
+                    <span class="question-total">1 of 5 Questions</span>
+                    <button class="next-btn">Next</button>
+                </div>
+            </div>
+
+            <div class="result-box">
+                <h2>Quiz Result</h2>
+                <div class="percentage-container">
+                    <div class="circular-progress">
+                        <span class="progress-value">0%</span>
+                    </div>
+
+                    <span class="score-text">Your Score: 0 / 5</span>
+                </div>
+
+                <div class="buttons">
+                    <button class="tryAgain-btn">Try Again</button>
+                    <button class="goHome-btn">Go To Home</button>
+                </div>
+            </div>
+            </section>
+
+            <section class="home">
+                <div class="home-content">
+                    <h1>404</h1>
+                    <p>This page dows not exist</p>
+                    <a href="index" class=download-btn></a>
+                </div>
+            </section>
+        </div>
     </main>
 
-    <div id="notfound">
-        <div class="notfound">
-            <div class="notfound-404 mb-6">
-                <h1>4<span>0</span>4</h1>
-            </div>
-            <p>The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
-            <a href="index">home page</a>
+    <div class="popup-info">
+        <h2>Quiz Guide</h2>
+        <span class="info">1. Answer the right question.</span><br>
+        <span class="info">2. Don't answer the wrong question.</span><br>
+        <span class="info">3. Try and get a 5/5 score.</span><br>
+        <span class="info">4. Do not exploit.</span><br>
+        <span class="info">5. Try getting 100%.</span><br>
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Exit Quiz</button>
+            <a href="#" class="info-btn continue-btn">Continue</a>
         </div>
     </div>
 
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+    <script src="questions.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
-
-
 </html>
