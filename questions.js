@@ -100,8 +100,8 @@ let questions = [
     },
     {
         numb: 10,
-        question: "Which Dragon uses it's Legs and Spikes to fly?",
-        answer: "B. The Red Dragon",
+        question: "Which Dragon uses Blue Ice?",
+        answer: "C. The Pink Dragon",
         options: [
             "A. The Green Dragon",
             "B. The Red Dragon",
