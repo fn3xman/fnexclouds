@@ -54,4 +54,59 @@ let questions = [
             "D. Extensible Markup Language"
         ]
     },
-];
+    {
+        numb: 6,
+        question: "Which Dragon uses it's brain to fly?",
+        answer: "D. The Green Dragon",
+        options: [
+            "A. The Red Dragon",
+            "B. The Yellow Dragon",
+            "C. The Pink Dragon",
+            "D. The Green Dragon"
+        ]
+    },
+    {
+        numb: 7,
+        question: "Which Dragon uses Lime Fire?",
+        answer: "A. The Green Dragon",
+        options: [
+            "A. The Green Dragon",
+            "B. The Yellow Dragon",
+            "C. The Red Dragon",
+            "D. The Pink Dragon"
+        ]
+    },
+    {
+        numb: 8,
+        question: "Which Dragon uses Normal Fire?",
+        answer: "D. The Red Dragon",
+        options: [
+            "A. The Green Dragon",
+            "B. The Yellow Dragon",
+            "C. The Pink Dragon",
+            "D. The Red Dragon"
+        ]
+    },
+    {
+        numb: 9,
+        question: "Which Dragon uses it's Legs and Spikes to fly?",
+        answer: "B. The Red Dragon",
+        options: [
+            "A. The Green Dragon",
+            "B. The Red Dragon",
+            "C. The Pink Dragon",
+            "D. The Yellow Dragon"
+        ]
+    },
+    {
+        numb: 10,
+        question: "Which Dragon uses it's Legs and Spikes to fly?",
+        answer: "B. The Red Dragon",
+        options: [
+            "A. The Green Dragon",
+            "B. The Red Dragon",
+            "C. The Pink Dragon",
+            "D. The Yellow Dragon"
+        ]
+    },
+    ];
