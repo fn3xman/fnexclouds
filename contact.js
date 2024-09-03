@@ -14,25 +14,28 @@ function sendEmail() {
     Message: ${elements.msg.value}`;
 
     Email.send({
-        Host: "smtp.elasticemail.com",
-        Username: "oliverfrankeljuelgg2@gmail.com",
-        Password: "BE5D7ABECFEE521C7EBE222CE1CD7FDC8FC2",
-        To: 'oliverfrankeljuelgg2@gmail.com',
-        From: "oliverfrankeljuelgg2@gmail.com",
-        Subject: elements.subject.value,
-        Body: bodyMessage
+        Host : "smtp.elasticemail.com",
+        Username : "oliverfrankeljuelgg@gmail.com",
+        Password : "DE53E148E31D796D8D4050DCED77292A4EFA",
+        To : 'oliverfrankeljuelgg@gmail.com',
+        From : "oliverfrankeljuelgg@gmail.com",
+        Subject : "This is the subject",
+        Body : "And this is the body"
     }).then(
-        message => {
-            if (message === "OK") {
-                Swal.fire({
-                    title: "Success!",
-                    text: "Email successfully sent!",
-                    icon: "success"
-                });
-            }
-        }
+      message => alert(message)
     );
-}
+        }).then(
+            message => {
+                if (message === "OK") {
+                    Swal.fire({
+                        title: "Success!",
+                        text: "Email successfully sent!",
+                        icon: "success"
+                    });
+                }
+            }
+        );
+    }
 
 function checkInputs() {
     const items = document.querySelectorAll(".item");
